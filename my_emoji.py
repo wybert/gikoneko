@@ -9,9 +9,9 @@ import random
 import numpy as np 
 
 try:
-    emojis = json.load(open("emoji.json",'r'))
-    emoticons = json.load(open("emoticons.json",'r'))
-    myfavorites = np.load('myfavorites.npy').item()
+    emojis = json.load(open("data/emoji.json",'r'))
+    emoticons = json.load(open("data/emoticons.json",'r'))
+    myfavorites = np.load('data/myfavorites.npy').item()
 except Exception,e:
     print str(e)
     print "Could not open emoji file "
