@@ -9,7 +9,31 @@ Just A Template
 import numpy as np
 
 frames = [r'''
-boy meets girl...
+
+
+
+
+
+
+
+
+      love story for happyLuhaha
+
+           by happybeetle
+
+
+
+
+
+
+
+
+
+
+
+''',
+r'''
+befor loog loog ago, a boy meets a girl...
 
       /:""|       .@@@@@,
      |:`66|_      @@@@@@@@,
@@ -33,7 +57,7 @@ boy meets girl...
       (____))      /_/YY
 ''',
 r'''
-and fall in love...
+and they fall in love...
 
        /:""|  .@@@@@,
 (\/)  |:`66|_ @@@@@@@@,
@@ -57,7 +81,7 @@ and fall in love...
        (____)) /_/YY
 ''',
 r'''
-tie the knot...
+and then they get married...
 
        /:""|  .****,
 (\/)  |:`66|_ @@@@@\ `,
@@ -81,7 +105,7 @@ tie the knot...
        (_,__)) /_/YY `':':':':':':`
 ''',
 r'''
-boy and girl are soon to become parents...boy goes off to work...
+they are soon to become parents,the boy goes off to work...
 
       /:""|       .@@@@@,
      |:`66|_      @@@@@@@@,
@@ -104,7 +128,7 @@ boy and girl are soon to become parents...boy goes off to work...
       |_||__        /~))
       (____))      /_/YY
 ''',
-r"""boy and girl and baby make three ...and another on the way...
+r"""boy and girl and their baby make three,and another on the way...
 
       /:""|       .@@@@@,
      |:`66|_      @@@@@@@@,
@@ -128,7 +152,7 @@ r"""boy and girl and baby make three ...and another on the way...
       (____))    (:;:;))      ||-----||
 """,
 r'''
-boy and girl and their 2.4 children...
+ they get another children...
 
       /:""|       .@@@@@,
      |: 66|_      @@@@@@@@,
@@ -175,7 +199,7 @@ boy and girl and their growing family...
       |_||__      ||__|       ||_____||       _||_|      _||_|
       (____))   ((____)       ||-----||      ((___)     ((___)
 ''',
-r""" boy and girl have grown children and have earned that "middle-age spread"...
+r""" they have grown children and have earned that "middle-age spread"...
                                             |":::\
       /```|      .@@@@@,         ,,,,       66 :::|
      |` 66|_     @@@@@@@@,      @@@@@@,    (_   ':D
@@ -198,10 +222,34 @@ r""" boy and girl have grown children and have earned that "middle-age spread"..
       |_||__       ||__|         //^)      __||_|     _||_|
       (____))    ((____)        ((_/Y     ((_____)   ((____)
 """,
-r"""boy and girl alone again
+r'''
+
+
+
+
+
+
+
+
+
+        finally, they alone again,but still in love 
+
+
+
+
+
+
+
+
+
+
+
+
+''',
+r"""
      8                            8
      8      /```|     .@@@@@,     8
-     8     |  66|_    @@@@@@@@,   8 (\/)    boy and girl alone again
+     8     |  66|_    @@@@@@@@,   8 (\/)    they alone again,but still in love
      8     C     _)   aa`@@@@@@   8  \/
      8(\/)  \ ._|    (_   ?@@@@   8
     |8:\/:~:~) /:~:~: =' @@@@~:~:~8
@@ -221,12 +269,62 @@ r"""boy and girl alone again
              |__||__|  (~~^\(~~^\
              (   \   \  `-._)`-._)
               `-._)-._)
-"""
+""",
+r'''
+
+
+
+
+
+
+
+
+
+        愿一生有你  
+
+
+
+
+
+
+
+
+
+
+
+
+''',
+r'''
+
+
+
+
+
+
+
+
+
+        the end  
+
+
+
+
+
+
+
+
+
+
+
+
+'''
+
+
 ]
 
 if __name__ == '__main__':
     movie={'name':'love story',
-            'stop':3,
+            'stop':5,
             'inter':0.25,
             'frames':frames}
     # movies={'love_story':movie}

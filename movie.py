@@ -30,12 +30,12 @@ def play_movie_by_name(name,start_title = 0,end_title = 0):
     
     movie = movies[name]
     screen_clear()
-    if start_title == 0:
-        print ' '*4 + movie['name']
-    else:
-        print start_title
-    time.sleep(1)
-    screen_clear()
+    # if start_title == 0:
+    #     print ' '*4 + movie['name']
+    # else:
+    #     print start_title
+    # time.sleep(1)
+    # screen_clear()
     time.sleep(1)
     for frame in movie['frames']:
         print frame
@@ -43,11 +43,11 @@ def play_movie_by_name(name,start_title = 0,end_title = 0):
         screen_clear()
         time.sleep(movie['inter'])
     time.sleep(1)
-    if end_title == 0:
-        print '              the     end              '
-    else:
-        print end_title
-    time.sleep(1)
+    # if end_title == 0:
+    #     print '              the     end              '
+    # else:
+    #     print end_title
+    # time.sleep(1)
 
 def list_all_movies():
 
