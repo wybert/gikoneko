@@ -4,7 +4,8 @@
 import sys
 from PIL import Image
 import imageio
-import processbar
+import progressbar
+import numpy as np
 
 WEIGHT = 33
 # color = "   ...',;:clodxkO0KXNWMMM"
@@ -41,7 +42,7 @@ def getsize(image):
 def viedeo_to_ascii(filename):
     reader = imageio.get_reader(filename)
     frames = []
-    bar = processbar.ProcessBar()
+    bar = progressbar.ProgressBar()
 
     for im in bar(reader):
         image = Image.fromarray(im)
@@ -58,9 +59,10 @@ if __name__ == '__main__':
     # filename = '7.jpg'
     # image = Image.open(filename)
     # print pic2ascii(image)
-    filename = 'run.mp4'
+
+    filename = 'love_poem.mov'
     frames = viedeo_to_ascii(filename)
-    movie ={'name':'run','stop':0.25,'inter':0.001,'frames':frames}
-    np.save('data/movies/run.npy',movie)
+    movie ={'name':'love_poem','stop':0.25,'inter':0,'frames':frames}
+    np.save('data/movies/love_poem.npy',movie)
 
 

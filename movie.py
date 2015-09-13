@@ -22,7 +22,7 @@ for file_str in os.listdir('data/movies'):
 
 
 def screen_clear():
-    print '\n'*80
+    print '\n'*70
     # os.system('clear')
     # pass
 
@@ -56,5 +56,7 @@ def list_all_movies():
 
 if __name__ =='__main__':
     list_all_movies()
-    play_movie_by_name('love_story')
+    # play_movie_by_name('love_story')
+    play_movie_by_name('love_movie')
+
     # 
